@@ -58,7 +58,7 @@ def load_api_key():
         str: Google API key or None
     """
     try:
-        api_key = 'AIzaSyCNRXh7dl59-HUbd43yfX4MKK66b7w_lp8'
+        api_key = ''
         
         if not api_key:
             st.error("Google API key not found. Please set the GOOGLE_API_KEY environment variable.")
